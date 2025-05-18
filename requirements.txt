@@ -1,0 +1,4 @@
+python-dotenv
+openai
+replicate
+datasets # hugginface datasets
