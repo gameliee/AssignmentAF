@@ -26,7 +26,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install pre-commit
 
-    - name: Run pre-commit
+    - name: Run pre-commit (first time, might fail when attempt to auto-fix)
+      run: pre-commit run --all-files || true
+
+    - name: Run pre-commit (second time, must pass)
       run: pre-commit run --all-files
 
     - name: Commit and push changes if needed
