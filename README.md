@@ -1,5 +1,7 @@
 # A simple GenAI pipeline
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gameliee/AssignmentAF/blob/colab/pipeline.ipynb)
+
 ## Development note 
 
 - Please use `pre-commit`
